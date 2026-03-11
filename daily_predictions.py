@@ -65,7 +65,7 @@ email = os.getenv("benji.c.steffens@gmail.com")         # Email to send recommen
 # Load environment variables and login to kickbase
 USERNAME = os.getenv("KICK_USER") # DO NOT CHANGE THIS, YOU MUST SET THOSE IN GITHUB SECRETS OR A .env FILE
 PASSWORD = os.getenv("KICK_PASS") # DO NOT CHANGE THIS, YOU MUST SET THOSE IN GITHUB SECRETS OR A .env FILE
-token = login(AndroidUser, kic11_Bdminton)
+token = login(USERNAME; PASSWORD)
 print("\nLogged in to Kickbase.")
 
 # Get league ID
