@@ -54,18 +54,18 @@ pd.set_option("display.width", 1000)
 # ----------------- USER SETTINGS -----------------
 # Adjust these settings to your preferences
 
-competition_ids = [1]                   # 1 = Bundesliga, 2 = 2. Bundesliga, 3 = La Liga
-league_name = "Die 10 Nuggatschleusen"  # Name of your league, must be exact match, can be done via env or hardcoded
-start_budget = 50_000_000               # Starting budget of your league, used to calculate current budgets of other managers
-league_start_date = "2025-08-08"        # Start date of your league, used to filter activities, format: YYYY-MM-DD
-email = os.getenv("EMAIL_USER")         # Email to send recommendations to, can be the same as EMAIL_USER or different
+competition_ids = [2]                   # 1 = Bundesliga, 2 = 2. Bundesliga, 3 = La Liga
+league_name = "UHD"  # Name of your league, must be exact match, can be done via env or hardcoded
+start_budget = 25_000_000               # Starting budget of your league, used to calculate current budgets of other managers
+league_start_date = "2026-03-04"        # Start date of your league, used to filter activities, format: YYYY-MM-DD
+email = os.getenv("benji.c.steffens@gmail.com")         # Email to send recommendations to, can be the same as EMAIL_USER or different
 
 # ---------------------------------------------------
 
 # Load environment variables and login to kickbase
 USERNAME = os.getenv("KICK_USER") # DO NOT CHANGE THIS, YOU MUST SET THOSE IN GITHUB SECRETS OR A .env FILE
 PASSWORD = os.getenv("KICK_PASS") # DO NOT CHANGE THIS, YOU MUST SET THOSE IN GITHUB SECRETS OR A .env FILE
-token = login(USERNAME, PASSWORD)
+token = login(benji.c.steffens@gmail.com, kic11_Bdminton)
 print("\nLogged in to Kickbase.")
 
 # Get league ID
